@@ -35,8 +35,12 @@
 <a name="favicon-counter" class="anchor" href="#favicon-counter"><span class="octicon octicon-link"></span></a>favicon-counter</h1>
 
         <p>A small JS library to add a number overlay to a pages favicon</p>
-            <a href='#' onClick="favcounter.set(++n)" class='button incrementCounter'>+1</a>
-            <a href='#' onClick="favcounter.set(--n)" class='button decrementCounter'>-1</a>
+            <a href='#' onClick="favcounter.set(0)" class='button incrementCounter'>0</a>
+            <a href='#' onClick="favcounter.set(1)" class='button decrementCounter'>1</a>
+            <a href='#' onClick="favcounter.set(5)" class='button decrementCounter'>5</a>
+            <a href='#' onClick="favcounter.set(25)" class='button decrementCounter'>25</a><br/><br/>
+            <strong>Code:</strong><br/>
+            <code>var favcounter = new FavCounter();<br/>favcounter.set(n);</code>
       </section>
       <footer>
         <p>This project is maintained by <a href="https://github.com/0x6C77">0x6C77</a></p>
